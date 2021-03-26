@@ -6,8 +6,6 @@ public class App {
 
     public static void main(String[] args) {
         Utils utils = new Utils();
-        if(utils.isAllPositiveNumbers("10", "45")){
-            System.out.println("All positive!");
-        }
+        utils.isAllPositiveNumbers("12", "79");
     }
 }

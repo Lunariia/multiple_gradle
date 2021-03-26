@@ -8,7 +8,6 @@
  */
 
 rootProject.name = 'TmpGradle'
-include('app', 'list', 'utilities')
 include 'api'
 include 'core'
 
